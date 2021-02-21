@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章测试 | 勤奋的小罗</title>
+<title>学习vue3的第一天知识点记录 | 勤奋的小罗</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://rllxh.github.io/favicon.ico?v=1613890164031">
+<link rel="shortcut icon" href="https://rllxh.github.io/favicon.ico?v=1613891057717">
 <link rel="stylesheet" href="https://rllxh.github.io/styles/main.css">
 
 
@@ -18,8 +18,10 @@
 
 
 
-    <meta name="description" content="文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试
-" />
+    <meta name="description" content="1.setup会在初始化props之后，beforeCreate之前调用
+2.ref和reactive的区别
+ref：主要用于基本类型的响应。ref如果要修改他的值只能使用.value进行修改，这一点现在也备受争议。
+reactive：主要..." />
     <meta name="keywords" content="" />
   </head>
   <body>
@@ -29,7 +31,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://rllxh.github.io">
-        <img src="https://rllxh.github.io/images/avatar.png?v=1613890164031" class="site-logo">
+        <img src="https://rllxh.github.io/images/avatar.png?v=1613891057717" class="site-logo">
         <h1 class="site-title">勤奋的小罗</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -46,13 +48,7 @@
       
         
           <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
+            文章
           </a>
         
       
@@ -91,11 +87,14 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">文章测试</h2>
+            <h2 class="post-title">学习vue3的第一天知识点记录</h2>
             <div class="post-date">2021-02-21</div>
             
             <div class="post-content" v-pre>
-              <p>文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试文章测试</p>
+              <p>1.setup会在初始化props之后，beforeCreate之前调用<br>
+2.ref和reactive的区别<br>
+ref：主要用于基本类型的响应。ref如果要修改他的值只能使用.value进行修改，这一点现在也备受争议。<br>
+reactive：主要用于引用类型的响应。</p>
 
             </div>
             
@@ -104,7 +103,7 @@
                 <div class="next">下一篇</div>
                 <a href="https://rllxh.github.io/post/hello-gridea/">
                   <h3 class="post-title">
-                    Hello Gridea111111
+                    欢迎来到我的博客
                   </h3>
                 </a>
               </div>
