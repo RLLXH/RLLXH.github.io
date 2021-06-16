@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://rllxh.github.io</id>
     <title>勤奋的小罗</title>
-    <updated>2021-06-16T06:23:51.045Z</updated>
+    <updated>2021-06-16T06:31:18.016Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://rllxh.github.io"/>
     <link rel="self" href="https://rllxh.github.io/atom.xml"/>
@@ -32,8 +32,8 @@ Date,function,Array三种常规的<br>
         6. 'function'                 --函数类型的变量或值<br>
         7. 'symbol'                   --Symbol的类型<br>
 5.检测数组<br>
-1.instanceof ==&gt; test instanceof Array //test是数组true，不是数组false<br>
-2.constructor  ==&gt; test.constructor =<mark>Array  // test是数组true，不是数组false<br>
+1.instanceof <mark>&gt; test instanceof Array //test是数组true，不是数组false<br>
+2.constructor  <mark>&gt; test.constructor</mark>=Array //test是数组true，不是数组false<br>
 3.Array.isArray()</mark>&gt;Array.isArray(test)//test是数组true，不是数组false</p>
 ]]></content>
     </entry>
