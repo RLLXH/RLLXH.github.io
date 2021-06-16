@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | 勤奋的小罗</title>
+<title>js数据类型 | 勤奋的小罗</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,7 +18,11 @@
 
 
 
-    <meta name="description" content="温故而知新">
+    <meta name="description" content="1.js的数据类型有几种
+8种：Number，Object，Array,undefined,null,Boolean ,Symbol（ES6新增）， bigInt（谷歌67版本）
+2.Object包含哪几种常规的类型？
+Date,funct..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -82,12 +86,48 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">js数据类型</h2>
+            <div class="post-date">2021-06-16</div>
             
-              <a class="tag" href="https://rllxh.github.io/tag/VJ3MRDd83/">博客</a>
+            <div class="post-content" v-pre>
+              <p>1.js的数据类型有几种<br>
+8种：Number，Object，Array,undefined,null,Boolean ,Symbol（ES6新增）， bigInt（谷歌67版本）<br>
+2.Object包含哪几种常规的类型？<br>
+Date,function,Array三种常规的<br>
+3.js的基本类型和应用类型<br>
+基本类型：String,Number,Boolean,Null,undefined<br>
+应用数据类型：Object，包含function，Array，Date<br>
+4.typeof的返回值<br>
+1. 'undefined'              --未定义的变量或值<br>
+        2. 'boolean'                 --布尔类型的变量或值<br>
+        3. 'string'                     --字符串类型的变量或值<br>
+        4. 'number'                  --数字类型的变量或值 (typeof NaN 也返回number)<br>
+        5. 'object'                    --对象类型的变量或值，或者null(这个是js历史遗留问题，将null作为object类型处理)<br>
+        6. 'function'                 --函数类型的变量或值<br>
+        7. 'symbol'                   --Symbol的类型<br>
+5.检测数组<br>
+1.instanceof ==&gt; test instanceof Array //test是数组true，不是数组false<br>
+2.constructor  ==&gt; test.constructor =<mark>Array  // test是数组true，不是数组false<br>
+3.Array.isArray()</mark>&gt;Array.isArray(test)//test是数组true，不是数组false</p>
+
+            </div>
             
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://rllxh.github.io/post/wen-zhang-ce-shi/">
+                  <h3 class="post-title">
+                    学习vue3的第一天知识点记录
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
           </div>
+
         </div>
       </div>
     </div>
